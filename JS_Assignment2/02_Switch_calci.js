@@ -27,9 +27,9 @@ function calculate(num1, num2, operation) {
   return result;
 }
 
-console.log(calculate(10, 5, "add")); // 15
-console.log(calculate(10, 5, "subtract")); // 5
-console.log(calculate(10, 5, "multiply")); // 50
-console.log(calculate(10, 5, "divide")); // 2
-console.log(calculate(10, 0, "divide")); // Error: Division by zero
-console.log(calculate(10, 5, "modulus")); // Error: Invalid operation
+console.log(calculate(10, 5, "add")); 
+console.log(calculate(10, 5, "subtract"));
+console.log(calculate(10, 5, "multiply")); 
+console.log(calculate(10, 5, "divide"));
+console.log(calculate(10, 0, "divide")); 
+console.log(calculate(10, 5, "modulus")); 
